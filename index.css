@@ -25,6 +25,7 @@ li {
 }
 .bg img {
 	width:100%;
+	display: flex;
 	justify-content: center;
 }
 .main {

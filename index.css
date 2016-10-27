@@ -1,0 +1,80 @@
+html {
+	background-color: black;
+}
+.nav ul {
+	padding: 8px 18px;
+	background color: #bdbbbb;
+}
+.nav a {
+	padding: 8px 18px;
+	border: 2px solid #eeeeee;
+	border-radius: 8px;
+	position: relative;
+	cursor: pointer;
+	background-color: #000000;
+ }
+.nav a:active {
+	top: 3px;
+}
+.nav a:hover {
+	background-color: #eeeeee;
+	border: 2px solid #eeeeee;
+}
+li {
+	display: inline;
+}
+.bg img {
+	width:100%;
+	justify-content: center;
+}
+.main {
+	display: flex;
+}
+.A {
+	float:left; 
+	margin:0; 
+	width: 33%; 
+	box-shadow: 0px 0px 5px grey;
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #eeeeee;
+  }
+ .A img {
+ 	height: 300px;
+ 	width: 100%;
+	border-radius: 15px;
+	 }
+ .B {
+	float:left; 
+	margin:0; 
+	width:33%;
+	 box-shadow: 0px 0px 5px grey;
+	 padding: 5px;
+	border-radius: 15px;
+	background-color: #eeeeee;
+   }
+ .B img {
+ 	height: 300px;
+ 	width: 100%;
+	border-radius: 15px;
+	 }
+ .C {
+	float:left; 
+	margin:0; 
+	width:33%;
+	 box-shadow: 0px 0px 5px grey;
+	 padding: 5px;
+	border-radius: 15px;
+	background-color: #eeeeee;
+   }
+ .C img {
+ 	height: 300px;
+ 	width: 100%;
+	border-radius: 15px;
+	 }
+a {
+ 	color: #075BA1;
+ 	text-decoration: none;
+ 	font-family: "Verdana", sans-serif;
+ 	font-weight: bold;
+ }

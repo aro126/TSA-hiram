@@ -32,6 +32,22 @@
 				<br>
 				<br>
 				<input type="submit" value="Submit">
+				<?php
+if($errorMessage != "") 
+{
+  echo("<p>There was an error:</p>\n");
+  echo("<ul>" . $errorMessage . "</ul>\n");
+} 
+else
+{
+  $fs = fopen("mydata.csv","a");
+  fwrite($fs,$varFirstName . ", " . $varLastName . "," , $varEmail . "," . $varMessage."\n");
+  fclose($fs);
+ 
+  header("Location: thankyou.html");
+  exit;
+}
+?>
 			</form>
 		</div>
 	</BODY>

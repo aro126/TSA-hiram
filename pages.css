@@ -3,8 +3,8 @@ html {
 	font-family: "verdana", sans-serif;
 }
 .nav ul {
-	padding: 8px 18px;
-	background color: #bdbbbb;
+	padding: 0px 18px;
+	display: block;
 }
 .nav a {
 	padding: 8px 18px;
@@ -13,6 +13,7 @@ html {
 	position: relative;
 	cursor: pointer;
 	background-color: #000000;
+	display: block;
  }
 .nav a:active {
 	top: 3px;
@@ -22,7 +23,7 @@ html {
 	border: 2px solid #eeeeee;
 }
 li {
-	display: inline;
+	display: inline-block;
 }
 h3 {
 	font-size: 30px;

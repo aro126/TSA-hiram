@@ -29,6 +29,12 @@ li {
 .main {
 	display: flex;
 }
+a {
+ 	color: #075BA1;
+ 	text-decoration: none;
+ 	font-family: "Verdana", sans-serif;
+ 	font-weight: bold;
+ }
 .A {
 	float:left; 
 	margin:0; 

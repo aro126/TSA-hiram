@@ -16,7 +16,7 @@ html {
 	text-decoration: none;
  }
 .nav a:active {
-	top: 3px;
+	background-color: #818181;
 }
 .nav a:hover {
 	background-color: #eeeeee;

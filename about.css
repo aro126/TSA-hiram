@@ -25,6 +25,32 @@ html {
 li {
 	display: inline-block;
 }
+.drop {
+    position: relative;
+    display: inline-block;
+}
+.content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+}
+.content li {
+	width: 100%;
+	padding-top: 8px;
+}
+.content a {
+    color: #075BA1;
+    padding: 8px 5px;
+    text-decoration: none;
+    display: block;
+	font-size: 14px;
+}
+.content a:hover {
+	background-color: #eeeeee;
+}
+.drop:hover .content {
+    display: block;
+}
 h3 {
 	font-size: 30px;
 }

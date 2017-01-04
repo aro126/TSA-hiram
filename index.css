@@ -47,9 +47,6 @@ li {
 .drop:hover .content {
     display: block;
 }
-.drop:hover .button {
-    background-color: #075BA1;
-}
 .bg img {
 	width: 100%;
 	justify-content: center;

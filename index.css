@@ -23,6 +23,7 @@ html {
 }
 li {
 	display: inline-block;
+	padding: 0px 2px;
 }
 .bg img {
 	width: 100%;

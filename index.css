@@ -13,7 +13,6 @@ html {
 	cursor: pointer;
 	background-color: #000000;
 	display: block;
-	text-decoration: none;
  }
 .nav a:active {
 	background-color: #818181;

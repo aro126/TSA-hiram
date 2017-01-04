@@ -4,6 +4,7 @@ html {
 .nav ul {
 	padding: 0px 18px;
 	display: block;
+	position: fixed;
 }
 .nav a {
 	padding: 8px 18px;
@@ -53,6 +54,7 @@ li {
 .bg img {
 	width: 100%;
 	justify-content: center;
+	padding-top: 40px;
 }
 .main {
 	display: flex;

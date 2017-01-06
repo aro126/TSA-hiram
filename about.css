@@ -1,5 +1,5 @@
 html {
-	background-color: #075BA1;
+	background-color: black;
 	font-family: "verdana", sans-serif;
 }
 .nav ul {
@@ -12,19 +12,19 @@ html {
 }
 .nav a {
 	padding: 8px 18px;
-	border: 2px solid grey;
+	border: 2px solid #eeeeee;
 	border-radius: 8px;
 	position: relative;
 	cursor: pointer;
-	background-color: #d8d8d8;
+	background-color: #000000;
 	display: block;
  }
 .nav a:active {
-	background-color: #ffffff;
+	background-color: #818181;
 }
 .nav a:hover {
-	background-color: #ffffff;
-	border: 2px solid grey;
+	background-color: #eeeeee;
+	border: 2px solid #eeeeee;
 }
 li {
 	display: inline-block;

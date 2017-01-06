@@ -63,6 +63,7 @@ li {
 	float:left; 
 	margin:0; 
 	width: 33%; 
+	box-shadow: inset 0px 0px 15px grey;
 	padding: 5px;
 	border-radius: 15px 0px 0px 15px;
 	background-color: #eeeeee;
@@ -76,7 +77,7 @@ li {
 	float:left; 
 	margin:0; 
 	width:33%;
-	 box-shadow: 0px 0px 15px grey;
+	box-shadow: inset 0px 0px 15px grey;
 	 padding: 5px;
 	background-color: #eeeeee;
    }
@@ -88,7 +89,7 @@ li {
 	float:left; 
 	margin:0; 
 	width:33%;
-	 box-shadow: 0px 0px 15px grey;
+	box-shadow: inset 0px 0px 15px grey;
 	 padding: 5px;
 	border-radius: 0px 15px 15px 0px;
 	background-color: #eeeeee;

@@ -24,7 +24,7 @@ html {
 }
 .nav a:hover {
 	background-color: #ffffff;
-	border: 2px solid #ffffff;
+	border: 2px solid grey;
 }
 li {
 	display: inline-block;

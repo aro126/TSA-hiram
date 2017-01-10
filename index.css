@@ -117,9 +117,7 @@ footer {
 	padding: 1px 0px;
 	display: flex;
 	justify-content: center;
-	position: absolute;
-	bottom: 0px;
 	width: 100%;
 	box-shadow: inset 0px 0px 30px black;
-	
+	border-radius: 15px;
 }

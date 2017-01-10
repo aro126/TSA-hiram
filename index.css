@@ -105,3 +105,21 @@ a {
  	font-family: "Verdana", sans-serif;
  	font-weight: bold;
  }
+footer p {
+	color: white;
+ 	text-decoration: none;
+ 	font-family: "Verdana", sans-serif;
+ 	font-weight: bold;
+	font-size: 20px;
+}
+footer {
+	background-color: #075BA1;
+	padding: 1px 0px;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	box-shadow: inset 0px 0px 30px black;
+	
+}
